@@ -125,15 +125,28 @@ content {
 
 .hook {
     display: flex;
+    flex-direction: column;
     padding: 30px 80px;
     background-color: gray;
     font-style: italic;
     font-size: 1.5em;
 }
 
-.who {
-    display: flex;
-    align-self:flex-end;
+.quote,
+p {
+    text-wrap:wrap;
+    text-align: left;
+    align-self: flex-start;
+    font-size: 1.1em;
+
+}
+
+.quote,
+b{
+    text-align: right;
+    text-wrap: nowrap;
+    align-self: flex-end;
+
 
 }
 .h4 {
