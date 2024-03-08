@@ -4,17 +4,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: whitesmoke;
     font-family: "Roboto", Helvetica, sans-serif;
 }
 
 body {
-    background-color: #1F2937;
-    padding: 0 80px;
+
 }
 .hero {
+    background-color: #1F2937;
+    padding: 0 80px;
     display:flex;
     flex-direction: column;
+    color: whitesmoke;
 }
 
 header {
@@ -34,6 +35,7 @@ ul {
 
 a {
     text-decoration: none;
+    color:white;
 }
 
 .header-logo {
@@ -59,4 +61,116 @@ a {
     display: flex;
     justify-items: center;
     align-self: center;
+}
+
+button {
+    padding: 5px;
+    border-radius: 10px;
+    font-family: inherit;
+    background-color: #3882F6;
+    width: 6em;
+    margin-top: 5px;
+    align-self:flex-start;
+    color: white;
+    flex-shrink: 0;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color:limegreen;
+    transform: scale(1.2, 1.2);
+    cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: black;
+}
+
+content {
+    padding: 0 80px;
+    background-color: whitesmoke;
+}
+.illustration-container {
+    display:flex;
+    padding: 0 80px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    gap: 18px;
+    flex: 1;
+}
+.image-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    text-align: center;
+
+}
+.illustration {
+    height: 100px;
+    width: 100px;
+    border: 8px solid rgba(21, 108, 158, 0.651);
+    border-radius: 10px;
+    gap: 18px;
+}
+
+.text {
+    color: black;
+    text-wrap: wrap;
+}
+
+.hook {
+    display: flex;
+    padding: 30px 80px;
+    background-color: gray;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.who {
+    display: flex;
+    align-self:flex-end;
+
+}
+.h4 {
+    color: black;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 80px;
+}
+
+.cta-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #3882F6;
+    color: whitesmoke;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 20px;
+    text-wrap: wrap;
+    padding: 15px 40px;
+    margin-bottom: 20px;
+}
+
+.cta {
+    font-weight: 700;
+}
+
+footer {
+    background-color:#1F2937;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
 }
